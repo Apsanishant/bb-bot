@@ -44,7 +44,7 @@ async def main():
         client.loop.create_task(client.sync())
 
         TOKEN = os.getenv("TOKEN")
-        await client.start(TOKEN)
+        await client.start("MTAyMDMxODI2Mjk4ODM4MjI2MA.Gz8YgI.I8hnkWh7HjZ_rggtyh2kNMCcT0A1VeCaSaok74")
 
 
 asyncio.run(main())
